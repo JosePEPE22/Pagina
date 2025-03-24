@@ -10,6 +10,7 @@ body {
     background-size: cover;  
     background-position: center;  
     background-attachment: fixed;  
+   
 }
 
 header {
@@ -41,9 +42,11 @@ section {
     margin: 20px;
     background-color: #ffffffbf;
     border-radius: 8px;
+   
 }
 section h2,h1{
     text-align: center;
+    color: #000000;
 }
 
 h1, h2 {
@@ -193,6 +196,8 @@ body.dark-mode {
     color: #ffffff;
 }
 
+
+
 body.dark-mode header {
     background-color: #000000c7;
     
@@ -202,7 +207,10 @@ body.dark-mode header a{
     
 }
 
-body.dark-mode h1, h2 {
+body.dark-mode section h1 {
+    color: #fefefe;
+}
+body.dark-mode section h2 {
     color: #fefefe;
 }
 
